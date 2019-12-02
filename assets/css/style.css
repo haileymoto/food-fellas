@@ -250,7 +250,7 @@ span {
 #nav-menu-container {
   float: right;
   margin: 0 0 0 0;
-  width: 63%;
+  width: 60%;
 }
 
 @media (max-width: 1024px) {
