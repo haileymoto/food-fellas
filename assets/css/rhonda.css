@@ -341,7 +341,7 @@ span {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(52, 59, 64, 0.9);
+  background: #F2EBDF;
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -359,7 +359,10 @@ span {
 }
 
 #mobile-nav ul li a {
-  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
   font-size: 14px;
   overflow: hidden;
   padding: 6px 22px 6px 15px;
@@ -372,7 +375,7 @@ span {
 }
 
 #mobile-nav ul li a:hover {
-  color: #fff;
+  color: #03738c;
 }
 
 #mobile-nav ul li li {
@@ -385,7 +388,7 @@ span {
   z-index: 99;
   padding: 15px;
   cursor: pointer;
-  color: #fff;
+  color: black;
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
@@ -446,6 +449,12 @@ img {
   margin-right: 23%;
   margin-left: 23%;
   margin-top: 7%;
+}
+
+@media (max-width: 991px) {
+  #description {
+    margin-top: 14%;
+  }
 }
 
 .dragcontainer{
