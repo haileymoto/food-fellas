@@ -578,7 +578,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #about{
-margin-top: -15%;}
+margin-top: -10%;}
 
 
 
@@ -588,6 +588,7 @@ margin-top: -15%;}
   display: inline-block;
   height: 100%;
   width: 100%;
+  margin-top: -10%;
 }
 
 #problem .feature-block {
